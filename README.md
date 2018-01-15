@@ -1,0 +1,2 @@
+# AVIZE
+AVIZE (Argument Visualization and Evaluation) is an educational argument diagramming tool for the domain of international politics.  AVIZE provides a set of argument schemes as cognitive building blocks for constructing argument diagrams in this domain, which  often involves reasoning about the beliefs, goals, appraisals, actions, and plans of actors such as countries, governments, politicians, etc.  However, the tool can be used in other domains by supplying your own data to use in arguments and your own set of argument schemes.
