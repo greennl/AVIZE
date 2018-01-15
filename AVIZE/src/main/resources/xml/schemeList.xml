@@ -1,0 +1,250 @@
+
+<!--
+Copyright 2017 Nancy Green
+This file is part of AVIZE.
+
+AVIZE is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+AVIZE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with AVIZE.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<schemeList>
+    <argScheme>
+        <title>Plan Distraction</title>
+        <premises>
+            <premise>Actor does Acts to divert Protagonist’s attention from Other Acts.</premise>
+            <premise>Actor believes that Protagonist would oppose Other Acts, if not distracted.</premise>
+        </premises>
+        <examples>
+            <example>Russia has kept international attention on Russian operations in Syria while escalating military deployments and political operations across Europe, the Middle East and Asia.</example>
+            <example>Russia believes the U.S. would oppose Russia’s actions in Europe, the Middle East and Asia.</example>
+            <example>Russia does not want the U.S. to oppose those actions in Europe, etc.</example>
+        </examples>
+        <conclusion>Actor does not want Protagonist to oppose Other Acts.</conclusion>
+        <CQs>
+            <CQ>In Actor’s view, is benefit-to-cost ratio high enough to justify Acts?</CQ>
+            <CQ>In Actor’s view, is benefit-to-cost ratio high enough to justify Other Acts?</CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Plan Deception</title>
+        <premises>
+            <premise>Actor claims that Acts are for Alleged Goal.</premise>
+            <premise>Acts are inconsistent with Alleged Goal.</premise>
+            <premise>Acts are consistent with Actual Goal.</premise>
+            <premise>Actor believes that Protagonist is likely to oppose Acts, if Protagonist knew of the Actual Goal.</premise>
+        </premises>
+        <examples>
+            <example>The alleged goal of Russia’s actions in Syria is to fight terrorism.</example>
+            <example>Russia’s actions in Syria are inconsistent with that goal.</example>
+            <example>Russia’s actions are consistent with constraining U.S. military operations in the Middle East.</example>
+            <example>Russia believes the U.S. would oppose Russian actions in Syria that constrain U.S. military operations in the Middle East.</example>
+            <example>Russia does not want U.S. to oppose Russia’s actions in Syria.</example>
+        </examples>
+        <conclusion>Actor does not want Protagonist to oppose Acts.</conclusion>
+        <CQs>
+            <CQ>In Actor’s view, is benefit-to-cost ratio high enough to justify Acts for Actual Goal?</CQ>
+            <CQ>Is it possible that Actor does not realize that effects of Acts are inconsistent with Alleged Goal?</CQ>
+            <CQ>Is Actual Goal consistent with other known goals of Actor?</CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Inferred Plan</title>
+        <premises>
+            <premise>Actor has Goal.</premise>
+            <premise>Actor does Acts.</premise>
+            <premise>Acts are consistent with that Goal.</premise>
+        </premises>
+        <examples>
+            <example>Russia would like to have increased military influence in Europe.</example>
+            <example>Russia made military deployments in the Baltic.</example>
+            <example>The Russian deployments in the Baltic are consistent with that goal.</example>
+            <example>Russia’s plan is to make deployments in the Baltic to have increased military influence in Europe.</example>
+        </examples>
+        <conclusion>Actor’s plan is to do Acts to bring about Goal.</conclusion>
+        <CQs>
+            <CQ>In Actor’s view, is benefit-to-cost ratio of high enough to justify Acts?</CQ>
+            <CQ>In Actor’s view, is there a preferable alternative plan for achieving Goal?</CQ>
+            <CQ>In Actor’s view, is there some other motivation for Acts?</CQ>
+            <CQ>Could the Actor’s plan have changed since doing Acts?  </CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Coercion</title>
+        <premises>
+            <premise>Actor has threatened Protagonist with Consequences if Protagonist does Acts.</premise>
+            <premise>Actor believes Protagonist would prefer result of not doing Acts to Consequences.</premise>
+        </premises>
+        <examples>
+            <example>Russia has threatened the U.S. with a conventional military or nuclear response if the U.S. challenges Russian global expansion.</example>
+            <example>Russia believes that the U.S. would prefer not opposing Russian expansion to war.</example>
+            <example>Russia is trying to coerce the U.S. into not opposing Russian expansion.</example>
+        </examples>
+        <conclusion>Actor is trying to coerce Protagonist into not doing Acts.</conclusion>
+        <CQs>
+            <CQ>In Actor’s view, is benefit-to-cost ratio of threats high enough?</CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Increasing Boldness</title>
+        <premises>
+            <premise>Actor has done Acts, which were not opposed by Protagonist.</premise>
+            <premise>Actor believes Protagonist will not oppose Similar Acts.</premise>
+            <premise>Actor wants to do Similar Acts.</premise>
+            <premise>Actor has resources to do Similar Acts.</premise>
+        </premises>
+        <examples>
+            <example>Russia has made military deployments in the Middle East and Europe, which were not opposed by the U.S.</example>
+            <example>Russia believes the U.S. will not oppose a buildup of Russian forces in Asia.</example>
+            <example>Russia wants to build up its forces in Asia.</example>
+            <example>Russia has resources to build up its forces in Asia.</example>
+            <example>Russia’s plan is to build up its forces in Asia.</example>
+        </examples>
+        <conclusion>Actor’s plan is to do Similar Acts.</conclusion>
+        <CQs>
+            <CQ>In Actor’s view, is benefit-to-cost ratio high enough to justify Acts for Goals?</CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Behavior Pattern</title>
+        <premises>
+            <premise>Actor has done Past Acts to achieve Past Goals.</premise>
+            <premise>Actor wants to do Acts similar to Past Acts to achieve Goals similar to Past Goals.</premise>
+            <premise>Actor has resources to do Acts.</premise>
+        </premises>
+        <examples>
+            <example>Russia has interfered with elections in other countries.</example>
+            <example>Russia wants to interfere with U.S. elections, for similar reasons.</example>
+            <example>Russia has resources to interfere with U.S. elections.</example>
+            <example>Russia’s plan is to interfere with U.S. elections.</example>
+        </examples>
+        <conclusion>Actor’s plan is to do Acts to achieve Goals.</conclusion>
+        <CQs>
+            <CQ>In Actor’s view, is benefit-to-cost ratio high enough to justify Acts for Goals?</CQ>
+            <CQ>In Actor’s view, is there a preferable alternative plan for achieving Goal?</CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Inferred Positive Appraisal </title>
+        <premises>
+            <premise>In Actor’s view, doing Acts has likelihood of Positive Consequences.</premise>
+        </premises>
+        <examples>
+            <example>Russia believed that if the candidate was helped to be elected, it would be good for Russia.</example>
+            <example>Russia did things in order to help the candidate to win the election.</example>
+        </examples>
+        <conclusion>Actor does Acts, in order to achieve Positive Consequences.</conclusion>
+        <CQs>
+            <CQ>In Actor’s view, is benefit-to-cost ratio high enough to justify doing Acts for Positive Consequences?</CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Inferred Negative Appraisal </title>
+        <premises>
+            <premise>In Actor’s view, doing Acts has likelihood of Negative Consequences.</premise>
+        </premises>
+        <examples>
+            <example>Russia believed that publically praising the candidate would backfire (not help the candidate win the election).</example>
+            <example>Russia did not publically praise the candidate, in order to avoid it backfiring.</example>
+        </examples>
+        <conclusion>Actor does not do Acts, in order to avoid Negative Consequences.</conclusion>
+        <CQs>
+            <CQ>In Actor’s view, is benefit-to-cost ratio high enough to justify not doing Acts for avoiding Negative Consequences?</CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Practical Reasoning</title>
+        <premises>
+            <premise>Protagonist has Goal.</premise>
+            <premise>Protagonist can do Acts as a way to achieve Goal.</premise>
+        </premises>
+        <examples>
+            <example>The U.S. wants to prevent Russian military expansion.</example>
+            <example>Sanctions and deterrence can prevent Russian military expansion.</example>
+            <example>The U.S. should impose sanctions and use deterrence.</example>
+        </examples>
+        <conclusion>Protagonist should do Acts.</conclusion>
+        <CQs>
+            <CQ>Is benefit-to-cost ratio high enough to justify Acts for Goal?</CQ>
+            <CQ>Is there a preferable alternative plan for achieving Goal?</CQ>
+            <CQ>How reliable is the source of the premise(s)?</CQ>
+            <CQ>How likely is the premise(s)?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Resist Coercion</title>
+        <premises>
+            <premise>Actor is trying to coerce Protagonist into not doing Acts via Threats.</premise>
+            <premise>Actor is incapable of executing Threats.</premise>
+            <premise>If Protagonist does not do Acts it will have Negative Consequences to Protagonist.</premise>
+        </premises>
+        <examples>
+            <example>Russia is trying to coerce the U.S. into not resisting Russian military expansion via the threat of conventional military or nuclear response.</example>
+            <example>Russia cannot carry out a successful conventional or nuclear war.</example>
+            <example>If the U.S. does not resist Russian military expansion it will diminish U.S. influence globally.</example>
+            <example>The U.S. should resist Russian military expansion.</example>
+        </examples>
+        <conclusion>Protagonist should do Acts.</conclusion>
+        <CQs>
+            <CQ>Is benefit of resisting compared to cost of not resisting high enough?</CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Avoid Negative Consequences</title>
+        <premises>
+            <premise>Protagonist not doing Acts is likely to have Negative Consequences.</premise>
+        </premises>
+        <examples>
+            <example>If the U.S. does not resist Russian operations it will diminish U.S. influence globally.</example>
+            <example>The U.S. should resist Russian military operations.</example>
+        </examples>
+        <conclusion>Protagonist should do Acts</conclusion>
+        <CQs>
+            <CQ>Is benefit of not doing Acts compared to cost of not doing Acts high enough?</CQ>
+            <CQ>Is there a better way of avoiding the Negative Consequences?</CQ>
+            <CQ>How reliable is the source of each premise?</CQ>
+            <CQ>How likely is each premise?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Generic</title>
+        <premises>
+            <premise>Drag onto the screen to specify the number of premises!</premise>
+        </premises>
+        <examples>
+            <example>Premise A</example>
+            <example>A supports Conclusion B</example>
+        </examples>
+        <conclusion>A conclusion supported by x premise(s)</conclusion>
+        <CQs>
+            <CQ>How reliable is the source of the premise(s)?</CQ>
+            <CQ>How likely is the premise(s)?</CQ>
+        </CQs>
+    </argScheme>
+</schemeList>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2017 Nancy Green
+This file is part of AVIZE.
+
+AVIZE is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+AVIZE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with AVIZE.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="mainGridPane" alignment="TOP_CENTER" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#dragDetected" onDragDone="#dragDone" prefHeight="145.0" prefWidth="325.0" GridPane.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uncg.save.controllers.PropositionBoxController">
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="323.0" minWidth="10.0" prefWidth="301.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="105.0" valignment="TOP" vgrow="NEVER" />
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="34.0" valignment="TOP" vgrow="ALWAYS" />
+  </rowConstraints>
+   <children>
+      <TextArea fx:id="text" editable="false" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#clearTextOnDown" onKeyReleased="#updateText" prefHeight="100.0" prefWidth="313.0" wrapText="true" GridPane.hgrow="NEVER" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="18.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextArea>
+      <Accordion fx:id="evidenceAccordion" focusTraversable="false" GridPane.rowIndex="1">
+        <panes>
+          <TitledPane fx:id="evidenceTitledPane" animated="false" focusTraversable="false" onMouseReleased="#modifyEvidencePane" text="Evidence: 0">
+               <content>
+                  <fx:include fx:id="evidenceChunk" source="PropositionEvidenceChunk.fxml" />
+               </content>
+               <font>
+                  <Font size="18.0" />
+               </font>
+          </TitledPane>
+        </panes>
+      </Accordion>
+      <Button fx:id="maximizeButton" alignment="TOP_RIGHT" mnemonicParsing="false" text="X" GridPane.halignment="RIGHT" GridPane.valignment="TOP" />
+   </children>
+</GridPane>

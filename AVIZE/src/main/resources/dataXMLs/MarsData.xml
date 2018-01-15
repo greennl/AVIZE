@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2017 Nancy Green
+This file is part of AVIZE.
+
+AVIZE is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+AVIZE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with AVIZE.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<dataList>
+    <data>
+        <id>data1</id>
+        <text>Martians have landed on earth.</text>
+        <source>The Daily Planet</source>
+        <genre>blog post</genre>
+        <reliability>UNRELIABLE</reliability>
+        <likelihoodString>0.01</likelihoodString>
+        <comment>Ack! Call the Doctor!</comment>
+    </data>
+    <data>
+        <id>data2</id>
+        <text>Hikers find Martian space ship in Nevada desert.</text>
+        <source>National Enquirer</source>
+        <genre>newspaper article</genre>
+        <reliability>UNRELIABLE</reliability>
+        <likelihoodString>0.01</likelihoodString>
+        <comment>Really?</comment>
+    </data>
+    <data>
+        <id>data3</id>
+        <text>Martian invasion debunked by NASA.</text>
+        <source>New York Times</source>
+        <date>2017-06-30</date>
+        <genre>newspaper article</genre>
+        <reliability>RELIABLE</reliability>
+        <likelihoodString>0.99</likelihoodString>
+        <comment>Cancel that call to the Doctor.</comment>
+    </data>
+    <data>
+        <id>data4</id>
+        <text>Air Force explains source of so-called space ship debris.</text>
+        <source>Washington Post</source>
+        <genre>newspaper article</genre>
+        <reliability>RELIABLE</reliability>
+        <likelihoodString>0.99</likelihoodString>
+        <comment>Whatever.</comment>
+    </data>
+    <data>
+        <id>data5</id>
+        <text>We come in peace.</text>
+        <source>unknown</source>
+        <genre>mysterious radio waves</genre>
+        <reliability>UNKNOWN</reliability>
+        <comment>Uh oh</comment>
+    </data>
+    <data>
+        <id>data6</id>
+	<text>Martian leaders told their fleet that they want to take Earth&apos;s coal and iron and use Earthlings to mine it.</text>
+	<source>Martian general command</source>
+	<genre>Martian fleet communication</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.99</likelihoodString>
+    </data>
+    <data>
+        <id>data7</id>
+	<text>Martian weapons are superior to any on Earth.</text>
+	<source>Martian Daily News</source>
+	<genre>opinion/propaganda</genre>
+	<reliability>UNRELIABLE</reliability>
+	<likelihoodString>0.1</likelihoodString>
+    </data>
+    <data>
+        <id>data8</id>
+	<text>Martians took over Earthlike planet Thear in another galaxy in order to enslave its population and exploit its resources.</text>
+	<source>Vulcan Daily Gazette</source>
+	<genre>news report </genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>1.0</likelihoodString>
+    </data>
+</dataList>

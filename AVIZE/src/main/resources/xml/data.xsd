@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2017 Nancy Green
+This file is part of AVIZE.
+
+AVIZE is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+AVIZE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with AVIZE.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="dataList">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="data" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="text" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="source" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                            <!-- date format should be YYYY-MM-DD -->
+                            <xs:element name="date" type="xs:date" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="genre" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="reliability" minOccurs="0" maxOccurs="1">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="AUTHORITATIVE"/>
+                                        <xs:enumeration value="RELIABLE"/>
+                                        <xs:enumeration value="UNRELIABLE"/>
+                                        <xs:enumeration value="UNKNOWN"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="likelihoodString" minOccurs="0" maxOccurs="1">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:minInclusive value="0.0"/>
+                                        <xs:maxInclusive value="1.0"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>               
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

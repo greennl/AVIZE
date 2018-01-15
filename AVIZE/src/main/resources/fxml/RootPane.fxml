@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2017 Nancy Green
+This file is part of AVIZE.
+
+AVIZE is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+AVIZE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with AVIZE.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uncg.save.controllers.RootPaneController">
+   <children>
+      <fx:include fx:id="titleAndMenuBar" source="TitleAndMenuBar.fxml" />
+      <HBox prefHeight="1065.0" prefWidth="1920.0">
+         <children>
+            <AnchorPane fx:id="dataAnchorPane" maxWidth="350.0" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="350.0">
+               <children>
+                  <fx:include fx:id="dataList" source="DataList.fxml" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="hideDataButton" mnemonicParsing="false" onMouseClicked="#toggleData" prefHeight="1050.0" prefWidth="5.0" text="←←←←←←←←←←" wrapText="true" />
+            <ScrollPane fx:id="mainScrollPane" focusTraversable="false" prefHeight="200.0" prefWidth="1376.0" style="-fx-background-color: cadetblue;">
+               <content>
+                  <fx:include fx:id="constructionArea" source="ConstructionArea.fxml" />
+               </content>
+            </ScrollPane>
+            <Button fx:id="hideSchemesButton" mnemonicParsing="false" onMouseClicked="#toggleSchemes" prefHeight="1050.0" prefWidth="5.0" text="→→→→→→→→→→" wrapText="true" />
+            <AnchorPane fx:id="schemesAnchorPane" maxWidth="270.0" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="257.0">
+               <children>
+                  <fx:include fx:id="schemeList" source="SchemeList.fxml" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</VBox>

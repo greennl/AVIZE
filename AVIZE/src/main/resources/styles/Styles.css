@@ -1,0 +1,129 @@
+.scheme-data-label{
+    -fx-background-color: #1f497d;
+    -fx-text-fill: white;
+}
+.button {
+    -fx-font-weight: bold;
+}
+.titled-pane{
+    -fx-background-fills: #1f497d;
+}
+.internal-titled-pane {
+     -fx-background-fills: #1f497d;
+     -fx-border-width: 1;
+     -fx-border-color: black;
+}
+.grid-pane{
+    -fx-background-color: #1f497d;
+}
+.grid-pane-prop > .viewport{
+    -fx-background-color: transparent;
+}
+.evidence-grid-pane{
+    -fx-background-color: cadetblue;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+}
+.pane{
+    -fx-background-color: #1f497d;
+    -fx-text-fill: white;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.data-pane{
+    -fx-background-color: cadetblue;
+    -fx-text-fill: white;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.rectangle{
+    -fx-background-color: black;
+}
+.text-area .content{
+    -fx-background-color: #1f497d;
+}
+.text-area{
+    -fx-text-fill: white;
+}
+.text-area1 {
+    -fx-background-color: rgba(31,73,125,0.2);
+}
+
+.text-area1 .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area1 .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area1 .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+.vertical-box .content{
+    -fx-background-color: #1f497d;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+}
+.anchor-pane{
+    -fx-background-color: #1f497d;
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane{
+    -fx-background-color: #1f497d;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+.horizontal-box{
+    
+}
+.premise-pane{
+        -fx-border-width: 1;
+    -fx-border-color: red;
+}
+.conclusion-pane{
+        -fx-border-width: 1;
+    -fx-border-color: red;
+}
+.chain-pane{
+        -fx-border-width: 1;
+    -fx-border-color: red;
+}
+.premise-rectangle{
+   
+}
+.conclusion-rectangle{
+    -fx-border-width: 3;
+    -fx-border-color: red;
+}
+.chain-rectangle{
+    
+}
+.data-label{
+    -fx-text-fill: white;
+    -fx-background-color: cadetblue;
+}
+.label{
+    -fx-font-size: 18;
+}   
+.side-pane{
+    -fx-border-insets: 0;
+    -fx-border-width: 2px;
+    -fx-border-color: black lightgray lightgray black;
+}
+.scheme-data-pane{
+    -fx-border-insets: 0;
+    -fx-border-width: 2px;
+    -fx-border-color: lightgray black black lightgray;
+}
+.scheme-data-vbox{
+    -fx-border-insets: 0;
+    -fx-border-width: 2px;
+    -fx-border-color: black lightgray lightgray black;
+}
+.internal-data-label{
+    -fx-background-color: #eaeaea;
+}

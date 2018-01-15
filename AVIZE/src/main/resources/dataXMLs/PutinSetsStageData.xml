@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<!--
+Copyright 2017 Nancy Green
+This file is part of AVIZE.
+
+AVIZE is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+AVIZE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with AVIZE.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<dataList>
+    <data>
+	<id>101</id>
+	<text>Russia has deployed several ships and submarines that give Russia advanced cruise missile capabilities, naval air defense, and anti-ship capabilities in the Middle East.</text>
+	<source>Institute for the Study of War</source>	
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>102</id>
+	<text>No opposition groups in the Middle East have any sea forces, air forces, or anti-air capabilities.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>103</id>
+	<text>Russia has provided arms and advanced capabilities to Iran, which could constrain the U.S.&apos;s ability to fight against al Qaeda and the Islamic State throughout the Middle East.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>104</id>
+	<text>The forces deployed by Russia in the Middle East allow Russia to establish an anti-access/area denial over much of the eastern Mediterranean and Syria.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>105</id>
+	<text>The forces deployed by Russia in the Middle East constrain the operations of U.S. forces in the region.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>106</id>
+	<text>Russian officials and media have highlighted Russia&apos;s nuclear capability and willingness to use nuclear weapons.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>107</id>
+	<text>Russia has permanently deployed Iskander-M tactical ballistic missiles to Kalinigrad, etc.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>108</id>
+	<text>The Baltic Sea Fleet has been provided advanced surface vessels.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>109</id>
+	<text>Recent Russian military actions in Ukraine and Syria have revealed significant capability gaps in the Russian military.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>110</id>
+	<text>The majority of Russia&apos;s conventional forces are not as well-equipped or modernized as its forces in Syria.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>111</id>
+	<text>Russia&apos;s failing economy will impair problems with Russian conventional forces.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>112</id>
+	<text>U.S. nuclear capability can deter Russian nuclear attacks.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>113</id>
+	<text>Russian military forces rely on old hardware and tactics.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+<data>
+	<id>114</id>
+	<text>The majority of Russian conventional forces have not been thoroughly equipped or modernized.</text>
+	<source>Institute for the Study of War</source>
+	<genre>Unclassified report</genre>
+	<reliability>RELIABLE</reliability>
+	<likelihoodString>0.9</likelihoodString>
+    </data>
+</dataList>

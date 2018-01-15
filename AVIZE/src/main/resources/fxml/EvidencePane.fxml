@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2017 Nancy Green
+This file is part of AVIZE.
+
+AVIZE is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+AVIZE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with AVIZE.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="superPane" minWidth="-Infinity" prefWidth="240.0" spacing="1.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uncg.save.controllers.EvidencePaneController">
+   <children>
+      <Label fx:id="textLabel" alignment="TOP_LEFT" graphicTextGap="0.0" maxWidth="-Infinity" prefWidth="355.0" text="label" wrapText="true">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </Label>
+      <TitledPane fx:id="metadataTitledPane" animated="false" expanded="false" onMouseReleased="#modifyMetaPane" prefWidth="240.0" text="Metadata">
+         <content>
+            <VBox fx:id="metadataVBox" prefWidth="238.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" spacing="25.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefWidth="90.0" text="Source:" />
+                        <Label fx:id="sourceLabel" prefWidth="200.0" text="dataSource" wrapText="true" />
+                     </children>
+                  </HBox>
+                  <Separator prefHeight="10.0" prefWidth="200.0" />
+                  <HBox alignment="CENTER_LEFT" spacing="25.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefWidth="90.0" text="Date:" />
+                        <Label fx:id="dateLabel" prefWidth="135.0" text="dataDate" wrapText="true" />
+                     </children>
+                  </HBox>
+                  <Separator prefHeight="10.0" prefWidth="200.0" />
+                  <HBox alignment="CENTER_LEFT" spacing="25.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefWidth="90.0" text="Genre:" />
+                        <Label fx:id="genreLabel" prefWidth="135.0" text="dataGenre" wrapText="true" />
+                     </children>
+                  </HBox>
+                  <Separator prefHeight="10.0" prefWidth="200.0" />
+                  <HBox alignment="CENTER_LEFT" spacing="25.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefWidth="90.0" text="Reliability:" />
+                        <Label fx:id="reliabilityLabel" prefWidth="135.0" text="dataRel" wrapText="true" />
+                     </children>
+                  </HBox>
+                  <Separator prefHeight="10.0" prefWidth="200.0" />
+                  <HBox alignment="CENTER_LEFT" spacing="25.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefWidth="90.0" text="Likelihood:" />
+                        <Label fx:id="likelihoodLabel" prefWidth="135.0" text="dataLike" wrapText="true" />
+                     </children>
+                  </HBox>
+                  <Separator prefHeight="10.0" prefWidth="200.0" />
+                  <HBox alignment="CENTER_LEFT" spacing="25.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefWidth="90.0" text="Comment:" />
+                        <Label fx:id="commentLabel" prefWidth="135.0" text="dataComment" wrapText="true" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TitledPane>
+   </children>
+</VBox>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2017 Nancy Green
+This file is part of AVIZE.
+
+AVIZE is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+AVIZE is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with AVIZE.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="238.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uncg.save.controllers.GenericPremisePaneController">
+   <children>
+      <Label layoutX="14.0" layoutY="16.0" prefHeight="40.0" text="Number of premises:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberLabel" layoutX="188.0" layoutY="17.0" prefHeight="40.0" text="1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="incButton" layoutX="208.0" layoutY="17.0" mnemonicParsing="false" onAction="#incNumPrem" prefHeight="15.0" prefWidth="36.0" text="▲">
+         <font>
+            <Font size="8.0" />
+         </font></Button>
+      <Button fx:id="decButton" layoutX="208.0" layoutY="37.0" mnemonicParsing="false" onAction="#decNumPrem" prefHeight="15.0" prefWidth="36.0" text="▼">
+         <font>
+            <Font size="8.0" />
+         </font></Button>
+      <Button fx:id="enterButton" layoutX="256.0" layoutY="17.0" mnemonicParsing="false" onAction="#enter" prefHeight="35.0" prefWidth="75.0" text="Enter">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="14.0" layoutY="57.0" text="Critical Questions:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ScrollPane hbarPolicy="NEVER" layoutX="14.0" layoutY="143.0" prefHeight="81.0" prefWidth="237.0">
+         <content>
+            <VBox fx:id="cqVBox" minWidth="-Infinity" prefWidth="225.0" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="addCQButton" layoutX="264.0" layoutY="98.0" mnemonicParsing="false" onAction="#addCQ" prefHeight="55.0" prefWidth="59.0" text="+" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="addCQTextArea" layoutX="14.0" layoutY="88.0" maxHeight="54.0" maxWidth="237.0" prefHeight="54.0" prefWidth="237.0" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <Button fx:id="removeCQButton" disable="true" layoutX="264.0" layoutY="156.0" mnemonicParsing="false" onAction="#removeCQ" prefHeight="55.0" prefWidth="59.0" text="-" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
