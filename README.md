@@ -4,9 +4,9 @@ AVIZE (Argument Visualization and Evaluation) is an educational argument diagram
 ## Running Avize
 To run AVIZE with default argument schemes simply download the latest release and run the included JAR file.  
 #### Custom ArgumentSchemes
-In the current version, if you wish to utilize your own custom schemes the AVIZE/src/main/resources/xml/schemeList.xml file must be edited/replaced. Edit the aforementioned file and rebuild the project with Maven.
+In the current version, if you wish to utilize your own custom schemes the AVIZE/src/main/resources/xml/schemeList.xml file must be edited/replaced. Edit the aforementioned file and rebuild the project with Maven.The XML schema for argument scheme files is located in AVIZE/src/main/resources/xml/scheme.xsd.
 #### Custom Data
-Custom data can be loaded from the application anytime after start up. Simply create an XML file with the data you wish to use and load it after starting AVIZE.
+Custom data can be loaded from the application anytime after start up. Simply create an XML file with the data you wish to use and load it after starting AVIZE. Default data examples can be found in AVIZE/src/main/resources/dataXMLs/. The XML schema for data files is located in AVIZE/src/main/resources/xml/data.xsd.
 
 ## Usage
 Please refer to the quickstart guide in the documentation folder for details on how to use AVIZE.
