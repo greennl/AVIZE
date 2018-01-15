@@ -5,7 +5,7 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-nb-configuration.xml
+/nb-configuration.xml
 
 # Maven specific
 target/
